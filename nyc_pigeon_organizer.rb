@@ -28,6 +28,7 @@ def nyc_pigeon_organizer(data)
       #datatypedata would be :purple, names would be ["Theo","Peter Jr.", "Lucky"]
       names.each do |name|
         if newdata.has_key?(name)
+          binding.pry
           newdata[name][datatype].push(datatypedata.to_s)
           binding.pry
         else
