@@ -29,6 +29,7 @@ def nyc_pigeon_organizer(data)
       names.each do |name|
         if newdata.has_key?(name)
           newdata[name][datatype].push(datatypedata.to_s)
+          binding.pry
         else
           newdata[name] = {color: [], gender: [], lives: []}
           newdata[name][datatype].push(datatypedata.to_s)
