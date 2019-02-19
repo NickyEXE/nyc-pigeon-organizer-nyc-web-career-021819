@@ -39,7 +39,7 @@ def nyc_pigeon_organizer(data)
   end
   newdata
 end
-
+nyc_pigeon_organizer(pigeon_data)
 =begin
 First: It should iterate through each key value (color, gender, lives)
 For every value it finds, it should check to see if it's in the new
